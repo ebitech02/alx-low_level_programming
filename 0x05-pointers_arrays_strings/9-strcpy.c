@@ -4,7 +4,7 @@
  * pointed to by src
  * @dest: copy to
  * @src: copy from
- * return dest
+ * return string
  */
 char *_strcpy(char *dest, char *src)
 {
