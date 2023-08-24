@@ -8,8 +8,9 @@ char *cap_string(char *str)
 {
 	int length = 0;
 
-	while (str[length] >= 'a' && str[length] <= 'z')
+	while (str[length])
 	{
+		while (!(str[length] >= 'a' && str[length] <= 'z'))
 		length++;
 
 		if (str[length - 1] == ' ' ||
