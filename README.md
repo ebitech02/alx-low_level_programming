@@ -1,1 +1,1 @@
-An introduction into C programming. Basic scripts and commands used.
+LEARNING ALL ABOUT C PROGRAMMING LANGUAGE WITH ALX AFRICA
