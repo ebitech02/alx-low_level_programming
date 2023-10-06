@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+* main - calculate the sum
+*
+* Return 0 if success
+*/
+
+int main(void)
+{
+     int num1 = 6;
+     int num2 = 5;
+
+     int sum = num1 + num2;
+
+     printf("The sum of %d and %d is %d\n", num1, num2, sum);
+
+     return 0;
+}
