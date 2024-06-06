@@ -1,0 +1,6 @@
+# all - the target rule
+# builds an executable called school
+
+all: main.c school.c
+	gcc main.c school.c -o school
+
