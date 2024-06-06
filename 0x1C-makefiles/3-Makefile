@@ -1,6 +1,6 @@
 # makefile for building executable files
 # clean - clean up Emacs and vim temporary files
-#
+
 
 CC = gcc
 SRC = main.c school.c
@@ -17,8 +17,10 @@ clean:
 oclean:
 	$(RM) $(OBJ)
 
+# rule to clean up everything
 fclean:
 	clean oclean
 
+# rule to force recompilation of all source files
 re: fclean all
 
